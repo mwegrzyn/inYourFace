@@ -1,0 +1,9 @@
+# dont track the stimuli (because they are copyrighted)
+/experiment/basicStim/**
+/experiment/stim/**
+
+# dont track the jupyter checkpoints
+/notebooks/.ipynb_checkpoints/**
+
+# dont track binaries
+**/*.pyc

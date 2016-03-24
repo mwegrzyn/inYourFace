@@ -1,0 +1,33 @@
+####### THIS IS A LOGFILE FOR THE JAIL FACE EXPERIMENT ######
+*Participant Number,A12
+*DateTime,2015-10-11 12:51:38.547252
+f1,1
+f2,0
+f3,1
+f4,1
+f5,0
+f6,0
+f7,1
+f8,1
+f9,0
+f10,0
+f11,0
+f12,1
+f13,0
+f14,0
+f15,1
+f16,0
+f17,0
+f18,1
+f19,1
+f20,0
+f21,1
+f22,0
+f23,1
+f24,0
+f25,0
+f26,1
+f27,1
+f28,0
+f29,0
+f30,1

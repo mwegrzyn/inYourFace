@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Code eingeben:</h2>
+
+<br><br>
+
+<div class="row marketing">
+
+    <form action="{{ url_for('startScreen') }}" method=post>
+
+        {{ form.hidden_tag() }}
+        <div class="container">
+        {{ form.message.label }}<br>
+        {{ form.message(class_="form-control") }}
+        </div><br><br><br>
+        <div class="container">
+        {{ form.submit(class="btn btn-primary") }}
+        </div><br><br><br>
+
+    </form>
+
+</div>
+{% endblock %}

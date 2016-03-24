@@ -1,0 +1,380 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+
+.stick {
+    position: fixed;
+    top: 0;
+    z-index:100;
+}
+
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    // Cache selectors for faster performance.
+    var $window = $(window),
+        $mainMenuBar = $('#mainMenuBar'),
+        $mainMenuBarAnchor = $('#mainMenuBarAnchor');
+
+    // Run this on scroll events.
+    $window.scroll(function() {
+        var window_top = $window.scrollTop();
+        var div_top = $mainMenuBarAnchor.offset().top;
+        if (window_top > div_top) {
+            // Make the div sticky.
+            $mainMenuBar.addClass('stick');
+            $mainMenuBarAnchor.height($mainMenuBar.height());
+        }
+        else {
+            // Unstick the div.
+            $mainMenuBar.removeClass('stick');
+            $mainMenuBarAnchor.height(0);
+        }
+    });
+});
+</script>
+
+<div class="container">
+    <h2>Appetitive and Facilitative Aggression Scale (AFAS)</h2>
+
+    <div>
+        <p><br><br><br>
+        Lieber Teilnehmer, liebe Teilnehmerin,<br><br>
+        bitte beantworten Sie die folgenden Fragen und achten Sie darauf keine auszulassen.
+        Manche Leute reagieren auf Frustrationen oder Ungerechtigkeiten im Alltag eher gelassen,
+        andere zeigen eher ihren Ärger. Hier folgen einige Fragen, wie Sie sich <strong>in ihrem Leben
+        bisher</strong> gefühlt und verhalten haben. Kreuzen Sie bitte jeweils eine der Antwortmöglichkeiten
+        an, je nachdem welche Häufigkeit auf Sie zutrifft. Versuchen Sie, spontan zu antworten und
+        nicht zu lange nachzugrübeln.<br><br>
+        Vielen Dank!<br><br>
+        </p>
+  </div>
+
+          {% for message in form.frage1.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage2.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage3.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage4.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage5.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage6.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage7.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage8.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage9.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage10.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage11.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage12.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage13.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage14.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage15.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage16.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage17.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage18.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage19.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage20.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage21.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage22.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage23.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage24.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage25.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage26.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage27.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage28.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage29.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          {% for message in form.frage30.errors %}
+          <div class="flash">{{ message }}</div>
+          {% endfor %}
+
+          <br><br>
+
+</div>
+
+<div id="mainMenuBarAnchor"></div>
+<div id="mainMenuBar" style="width: 100%; height: 50px; background: white; padding-top: 10;"><div class="container"><strong>Wie häufig in Ihrem Leben...</strong></div></div>
+
+<div class="container">
+<br><br>
+
+<div class="row marketing">
+
+    <form action="{{ url_for('demographics') }}" method=post>
+
+        {{ form.hidden_tag() }}
+
+        <div class="container">
+        {{ form.frage1.label }}<br></div>
+        <div class="radio">
+        {{ form.frage1 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage2.label }}<br></div>
+        <div class="radio">
+        {{ form.frage2 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage3.label }}<br></div>
+        <div class="radio">
+        {{ form.frage3 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage4.label }}<br></div>
+        <div class="radio">
+        {{ form.frage4 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage5.label }}<br></div>
+        <div class="radio">
+        {{ form.frage5 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage6.label }}<br></div>
+        <div class="radio">
+        {{ form.frage6 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage7.label }}<br></div>
+        <div class="radio">
+        {{ form.frage7 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage8.label }}<br></div>
+        <div class="radio">
+        {{ form.frage8 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage9.label }}<br></div>
+        <div class="radio">
+        {{ form.frage9 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage10.label }}<br></div>
+        <div class="radio">
+        {{ form.frage10 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage11.label }}<br></div>
+        <div class="radio">
+        {{ form.frage11 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage12.label }}<br></div>
+        <div class="radio">
+        {{ form.frage12 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage13.label }}<br></div>
+        <div class="radio">
+        {{ form.frage13 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage14.label }}<br></div>
+        <div class="radio">
+        {{ form.frage14 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage15.label }}<br></div>
+        <div class="radio">
+        {{ form.frage15 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage16.label }}<br></div>
+        <div class="radio">
+        {{ form.frage16 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage17.label }}<br></div>
+        <div class="radio">
+        {{ form.frage17 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage18.label }}<br></div>
+        <div class="radio">
+        {{ form.frage18 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage19.label }}<br></div>
+        <div class="radio">
+        {{ form.frage19 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage20.label }}<br></div>
+        <div class="radio">
+        {{ form.frage20 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage21.label }}<br></div>
+        <div class="radio">
+        {{ form.frage21 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage22.label }}<br></div>
+        <div class="radio">
+        {{ form.frage22 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage23.label }}<br></div>
+        <div class="radio">
+        {{ form.frage23 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage24.label }}<br></div>
+        <div class="radio">
+        {{ form.frage24 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage25.label }}<br></div>
+        <div class="radio">
+        {{ form.frage25 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage26.label }}<br></div>
+        <div class="radio">
+        {{ form.frage26 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage27.label }}<br></div>
+        <div class="radio">
+        {{ form.frage27 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage28.label }}<br></div>
+        <div class="radio">
+        {{ form.frage28 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage29.label }}<br></div>
+        <div class="radio">
+        {{ form.frage29 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.frage30.label }}<br></div>
+        <div class="radio">
+        {{ form.frage30 }}
+        <br></div><br>
+
+        <div class="container">
+        {{ form.submit(class="btn btn-primary") }}
+        </div><br><br><br>
+
+    </form>
+
+</div>
+{% endblock %}
