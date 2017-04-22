@@ -7,5 +7,4 @@ sns.set_style("white")
 
 labelCoding = {'G':0,'K':1,'A':2}
 
-myGLabels={'G':'violence offenders','K':'child molesters','A':'general population'}
-
+myGLabels={'G':'violence offenders','K':'child sex offenders','A':'general population'}
