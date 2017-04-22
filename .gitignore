@@ -7,3 +7,6 @@
 
 # dont track binaries
 **/*.pyc
+
+# dont track virtual environment
+/venv/**
