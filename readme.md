@@ -1,19 +1,18 @@
-# In your face! The biased judgement of fear-anger expressions in violence offenders.
+# In your face: The biased judgment of fear-anger expressions in violent offenders.
 
 Martin Wegrzyn, Sina Westphal & Johanna Kissler,
 in preparation
 
 ### Abstract
 
-
 Why is it that certain violent criminals repeatedly find themselves engaged in brawls? Many inmates report having felt provoked or threatened by their victims, which might be due to a tendency to ascribe malicious intentions when faced with ambiguous social signals, termed hostile attribution bias.
-The present study presented morphed fear-anger faces to prison inmates with a history of violent crimes, to inmates who sexually abused minors, and to matched controls form the general population. In addition, a test to distinguish basic facial expressions and questionnaires for aggression, psychopathy and personality disorders were administered.
-Results show that violent offenders present with a reliable hostile attribution bias, in that they rate ambiguous fear-anger expressions as more angry, compared to both the control population and child molesters. When fitting psychometric functions to the data violent offenders show a lowered threshold to detect anger, as compared to the general population.  This effect is especially pronounced for male faces and correlates with self-reported aggression ratings from questionnaire data. The effects cannot be explained by a general impairment in recognizing expressions, as the violent offenders are as successful in recognizing full-blown basic expressions of emotion as the other groups.
-We propose that using an expression identification task and combining it with questionnaire data might aid diagnostics regarding the specificity of the deficit in violent offenders, while providing a reasonable check against potential dissimulation tendencies. Overall, the results indicate that a hostile attribution bias might be one underlying mechanism responsible for acts of physical violence.
+The present study presented morphed fear-anger faces to prison inmates with a history of violent crimes, a history of child sexual abuse, and to matched controls form the general population. Participants performed a fear-anger decision task. Analyses compared both response frequencies and measures derived from psychophysical functions fitted to the data. In addition, a test to distinguish basic facial expressions and questionnaires for aggression, psychopathy and personality disorders were administered.
+Violent offenders present with a reliable hostile attribution bias, in that they rate ambiguous fear-anger expressions as more angry, compared to both the control population and perpetrators of child sexual abuse. Psychometric functions show a lowered threshold to detect anger in violent offenders compared to the general population. This effect is especially pronounced for male faces, correlates with self-reported aggression  and presents in absence of a general emotion recognition impairment.
+The results indicate that a hostile attribution, related to individual level of aggression and pronounced for male faces might be one mechanism mediating physical violence.
 
 ### About
 
-This is a repository containing the full data and code of our paper about facial expression recognition in violence offenders (work in progress!).  
+This is a repository containing the full data and code of our paper about facial expression recognition in violence offenders. 
 
 ### Table of Contents
 
@@ -34,9 +33,31 @@ This is a repository containing the full data and code of our paper about facial
 
 ### Requirements
 
-Data analysis was performed with Python 2.7.11 [www.python.org](http://www.python.org) using mainly NumPy, SciPy, Pandas, scikit-learn, Matplotlib, Seaborn and the Jupyter Notebook, all as provided with Anaconda 2.2.5 (Continuum Analytics; [docs.continuum.io/anaconda](http://docs.continuum.io/anaconda)).  
-The main experiment was written and rendered with [PsychoPy](http://psychopy.org).  
-The AFAS questionnaire was rendered as a html site using [Flask](http://flask.pocoo.org/).  
+Data analysis was performed with Python 2.7 [www.python.org](http://www.python.org) using mainly numpy, scipy, pandas, scikit-learn, matplotlib, seaborn and jupyter.
+
+
+
+To run all the scipts, you can create a virtual environment, by first installing virtualenv
+
+
+```shell
+pip install  virtualenv
+```
+Then you can create a virtual environment in the folder into which you cloned this repository
+
+```shell
+virtualenv venv
+```
+
+and then install all modules using pip
+
+
+```shell
+venv/bin/pip install -r requirements.txt
+```
+
+The main experiment was written and rendered with [PsychoPy](http://psychopy.org).
+The AFAS questionnaire was rendered as a html site using [Flask](http://flask.pocoo.org/) for the back-end.
 
 ### Contact
 
