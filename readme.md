@@ -12,15 +12,15 @@ The results indicate that a hostile attribution, related to individual level of 
 
 ### About
 
-This is a repository containing the full data and code of our paper about facial expression recognition in violence offenders. 
+This is a repository containing the full data and code of our paper about facial expression recognition in violence offenders.
 
 ### Table of Contents
 
 - the participant data
- - [AFAS](experiment/quest/app/static/logfiles)
- - [PPI-R](experiment/ppi_r.csv)
- - [SCID-II](experiment/scid_ii.csv)
- - [basic expressions and morphed expressions](experiment/data)
+  - [AFAS](experiment/quest/app/static/logfiles)
+  - [PPI-R](experiment/ppi_r.csv)
+  - [SCID-II](experiment/scid_ii.csv)
+  - [basic expressions and morphed expressions](experiment/data)
 - the experiment
   - [AFAS as online questionnaire](experiment/quest)
   - [face recognition experiment](experiment/emoFaces.py)
