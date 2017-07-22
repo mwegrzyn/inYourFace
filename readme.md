@@ -5,7 +5,6 @@ Martin Wegrzyn, Sina Westphal & Johanna Kissler
 Published: 12 May 2017  
 [DOI: 10.1186/s40359-017-0186-z](http://dx.doi.org/10.1186/s40359-017-0186-z)
 
-in preparation
 
 ### Abstract
 
