@@ -1,14 +1,19 @@
 # In your face: The biased judgment of fear-anger expressions in violent offenders.
 
-Martin Wegrzyn, Sina Westphal & Johanna Kissler,
+Martin Wegrzyn, Sina Westphal & Johanna Kissler  
+
+Published: 12 May 2017  
+[DOI: 10.1186/s40359-017-0186-z](http://dx.doi.org/10.1186/s40359-017-0186-z)
+
 in preparation
 
 ### Abstract
 
-Why is it that certain violent criminals repeatedly find themselves engaged in brawls? Many inmates report having felt provoked or threatened by their victims, which might be due to a tendency to ascribe malicious intentions when faced with ambiguous social signals, termed hostile attribution bias.
-The present study presented morphed fear-anger faces to prison inmates with a history of violent crimes, a history of child sexual abuse, and to matched controls form the general population. Participants performed a fear-anger decision task. Analyses compared both response frequencies and measures derived from psychophysical functions fitted to the data. In addition, a test to distinguish basic facial expressions and questionnaires for aggression, psychopathy and personality disorders were administered.
-Violent offenders present with a reliable hostile attribution bias, in that they rate ambiguous fear-anger expressions as more angry, compared to both the control population and perpetrators of child sexual abuse. Psychometric functions show a lowered threshold to detect anger in violent offenders compared to the general population. This effect is especially pronounced for male faces, correlates with self-reported aggression  and presents in absence of a general emotion recognition impairment.
-The results indicate that a hostile attribution, related to individual level of aggression and pronounced for male faces might be one mechanism mediating physical violence.
+Why is it that certain violent criminals repeatedly find themselves engaged in brawls? Many inmates report having felt provoked or threatened by their victims, which might be due to a tendency to ascribe malicious intentions when faced with ambiguous social signals, termed hostile attribution bias.  
+The present study presented morphed fear-anger faces to prison inmates with a history of violent crimes, a history of child sexual abuse, and to matched controls form the general population. Participants performed a fear-anger decision task. Analyses compared both response frequencies and measures derived from psychophysical functions fitted to the data. In addition, a test to distinguish basic facial expressions and questionnaires for aggression, psychopathy and personality disorders were administered.  
+Violent offenders present with a reliable hostile attribution bias, in that they rate ambiguous fear-anger expressions as more angry, compared to both the control population and perpetrators of child sexual abuse. Psychometric functions show a lowered threshold to detect anger in violent offenders compared to the general population. This effect is especially pronounced for male faces, correlates with self-reported aggression and presents in absence of a general emotion recognition impairment.  
+The results indicate that a hostile attribution, related to individual level of aggression and pronounced for male faces, might be one mechanism mediating physical violence.
+
 
 ### About
 
